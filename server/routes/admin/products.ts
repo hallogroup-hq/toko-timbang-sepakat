@@ -145,7 +145,6 @@ adminProductRoutes.get('/:id', async (c) => {
 
 // 3. Create new product
 adminProductRoutes.post('/', async (c) => {
-  const adminUser = c.get('adminUser');
   const body = await c.req.json().catch(() => null);
 
   if (!body || !body.display_name) {

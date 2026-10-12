@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "functions": {
-    "api/index.ts": {
+    "api/index.js": {
       "includeFiles": "data/**",
       "maxDuration": 15
     }
