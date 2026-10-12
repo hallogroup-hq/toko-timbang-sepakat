@@ -1,0 +1,9 @@
+.git
+.DS_Store
+*.log
+tests/
+docs/
+Branding/
+*.png
+!public/**
+*.JPG
