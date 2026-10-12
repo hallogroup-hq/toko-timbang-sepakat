@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+data/*-backup*.db
+data/*.backup.db
+data/*.restored.db
+.vercel
+data/*.db-shm
+data/*.db-wal

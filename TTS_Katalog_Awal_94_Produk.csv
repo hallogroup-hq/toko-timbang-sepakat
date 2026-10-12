@@ -1,0 +1,95 @@
+﻿source_key,source_row,nama_produk_asli,harga_karton_pack_idr,harga_pcs_idr,status_satuan_karton_pack,sku,kategori,foto_status,catatan_review
+SEPAKAT-001,1,Greenfield,280000,23500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-002,2,Greenfield UHT,240000,20000,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-003,3,UHT Diamond,240000,20000,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-004,4,Susu F&N,850000,18500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Identitas produk/foto memerlukan verifikasi varian/kemasan; Review kewajaran harga tanpa mengubah nilai sumber; Koreksi nama dikonfirmasi pemilik: di daftar awal tertulis FN; nama yang benar Susu F&N
+SEPAKAT-005,5,Rich Milk Diamond,270000,22500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-006,6,Premium Creamer,,52000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-007,7,Matcha,,95000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-008,8,Chocolate Dilico,,340000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-009,9,Gula Aren,,38000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-010,10,Gula Pasir,,18500,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-011,11,Lychee Kaleng,,30000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-012,12,Diamond Cranberry,,36000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-013,13,Diamond Apple,,36000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-014,14,Diamond Mango,,36000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-015,15,Trieste Raspberry,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-016,16,Trieste Havana,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-017,17,Trieste Butterscotch,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-018,18,Trieste Caramel,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-019,19,Trieste Salted Caramel,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-020,20,Trieste Hazelnut,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-021,21,Trieste Vanilla,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-022,22,Trieste Peach,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-023,23,Trieste Blue Curacao,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-024,24,Trieste Mojito Mint,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-025,25,Trieste Mix Berry,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-026,26,Trieste Pistachio,,85000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-027,27,Whip Cream Trans,,50000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-028,28,Thai Tea,,65000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-029,29,Cup Seal,,49500,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-030,30,Paper Wrap,,500,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-031,31,Marjan Strawberry,,25000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-032,32,Marjan Lychee,,25000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-033,33,Marjan Lemon,,25000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-034,34,Marjan Nanas,,16000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-035,35,Marjan Lychee Squah,,16000,tidak_ada_opsi,,,belum_dicari,Periksa ejaan label asli ketika riset foto; jangan ubah diam-diam
+SEPAKAT-036,36,Davinci Cramel,,285000,tidak_ada_opsi,,,belum_dicari,Periksa ejaan label asli ketika riset foto; jangan ubah diam-diam
+SEPAKAT-037,37,Davinci Butterscotch,,285000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-038,38,Equil Natural 380 ml Crate,255000,12750,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-039,39,Equil Natural 760 ml Crate,246000,20500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-040,40,Equil Natural 360 ml Carton,162000,13500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-041,41,Equil Natural 760 ml Carton,129000,21500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Review kewajaran harga tanpa mengubah nilai sumber
+SEPAKAT-042,42,Cleo 12.8 L,,21000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-043,43,Filter v60,70000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-044,44,Jungle Juice Anggur,,33000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-045,45,Jungle Juice Lemon,,33000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-046,46,Cleo Eco Green 400 ml,52000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-047,47,Lemon Kering,,30000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-048,48,Sanquick Lemon 300 ml,420000,35000,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-049,49,Sanquick Orange 700 ml,,75000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-050,50,Sanquick Mango 800 ml,,85000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-051,51,Cilok sultan,38850,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Periksa ejaan label asli ketika riset foto; jangan ubah diam-diam
+SEPAKAT-052,52,Batagor,18870,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-053,53,Dimsum Ayam isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-054,54,Dimsum Udang isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-055,55,Dimsum Mozarella isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Periksa ejaan label asli ketika riset foto; jangan ubah diam-diam
+SEPAKAT-056,56,Lumpia Ayam isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-057,57,Lumpia Udang isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-058,58,Lumpia Kulit Tahu Ayam isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-059,59,Lumpia Kulit Tahu Udang isi 50,125000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-060,60,Nugget Kanzler,,42900,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-061,61,"Kentang Shoestring 2,5 kg",70000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-062,62,"Kentang Wedges 2,5 Kg",82500,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-063,63,Plastik U/10,13000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-064,64,Plastik U/15,13000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-065,65,Plastik U/25,13000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-066,66,Lunch Box S,37000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-067,67,Lunch Box M,42000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-068,68,Straw Wigo Ice isi 500 Pcs,23000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-069,69,Straw isi 300 pcs,13000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-070,70,Straw Hot isi 50 Gram,5000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-071,71,Oreo Crumb,,80000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-072,72,Oatside,,35000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan; Koreksi typo dikonfirmasi pemilik: di daftar awal tertulis Outside; nama yang benar Oatside
+SEPAKAT-073,73,Max Creamer,,42000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-074,74,Sprite,,11000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-075,75,Amidis,,22500,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-076,76,Trash Bag 60 x 100,,19000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-077,77,Trash Bag 90 x 120,,19000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-078,78,Dairy Champ SKM,,15000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-079,79,Dairy Champ Evaporasi,627000,13500,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Review kewajaran harga tanpa mengubah nilai sumber
+SEPAKAT-080,80,Tiga Sapi,187000,16000,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi; Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-081,81,Beras,,410000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan; Review kewajaran harga tanpa mengubah nilai sumber
+SEPAKAT-082,82,Telor,,30000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-083,83,Milac,,75000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-084,84,Lipton,,68000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-085,85,Van Houten,,45000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-086,86,Pondan Vanilla Magic,,90000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-087,87,Le Minerale,,50000,tidak_ada_opsi,,,belum_dicari,Identitas produk/foto memerlukan verifikasi varian/kemasan
+SEPAKAT-088,88,Peach Kaleng,,61500,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-089,89,Cocktail Kaleng,,65500,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-090,90,Tissue Roll isi 10,33000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-091,91,Tissue Pop Up Isi 10,33000,,butuh_verifikasi_label,,,belum_dicari,Pastikan satuan fisik karton/pack; belum terverifikasi
+SEPAKAT-092,92,"Dc Skm Bantal 2,5 kg",,60000,tidak_ada_opsi,,,belum_dicari,
+SEPAKAT-093,93,Lotus Bisqof,,50000,tidak_ada_opsi,,,belum_dicari,Periksa ejaan label asli ketika riset foto; jangan ubah diam-diam
+SEPAKAT-094,94,Goldenfill Strawberry Jam,,55000,tidak_ada_opsi,,,belum_dicari,

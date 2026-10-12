@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+      <rect width="400" height="400" fill="#f8fafc" rx="24"/>
+      <g transform="translate(120, 60)">
+        <!-- Shadow -->
+        <ellipse cx="80" cy="285" rx="75" ry="14" fill="#000000" opacity="0.08" />
+        <!-- Pouch Seal Top -->
+        <polygon points="25,20 135,20 145,45 15,45" fill="#166534" stroke="#0f172a" stroke-width="1.5" />
+        <line x1="20" y1="30" x2="140" y2="30" stroke="#4ade80" stroke-dasharray="4,3" stroke-width="1.5" />
+        <!-- Pouch Body -->
+        <path d="M 15 45 Q 5 160 20 280 L 140 280 Q 155 160 145 45 Z" fill="#166534" stroke="#0f172a" stroke-width="2" />
+        <!-- Center Label Card -->
+        <rect x="35" y="80" width="90" height="135" rx="8" fill="#ffffff" />
+        <rect x="35" y="80" width="90" height="8" rx="4" fill="#4ade80" />
+        <text x="80" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#64748b" text-anchor="middle" letter-spacing="1">PREMIUM BLEND</text>
+        <text x="80" y="140" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#0f172a" text-anchor="middle">Matcha</text>
+        <text x="80" y="160" font-family="system-ui, sans-serif" font-size="10" font-weight="medium" fill="#ba3c07" text-anchor="middle">Bubuk Kafe</text>
+        <rect x="50" y="180" width="60" height="18" rx="4" fill="#f1f5f9" />
+        <text x="80" y="193" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#334155" text-anchor="middle">Netto 1 kg</text>
+      </g>
+    </svg>
