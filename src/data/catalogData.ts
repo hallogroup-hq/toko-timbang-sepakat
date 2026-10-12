@@ -66,7 +66,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_001.jpg",
+    "image_url": "/products/sepakat_001.jpg",
     "options": [
       {
         "id": "opt_sepakat_001_kp",
@@ -100,7 +100,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_002.jpg",
+    "image_url": "/products/sepakat_002.jpg",
     "options": [
       {
         "id": "opt_sepakat_002_kp",
@@ -134,7 +134,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_003.jpg",
+    "image_url": "/products/sepakat_003.jpg",
     "options": [
       {
         "id": "opt_sepakat_003_kp",
@@ -202,7 +202,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_005.jpg",
+    "image_url": "/products/sepakat_005.jpg",
     "options": [
       {
         "id": "opt_sepakat_005_kp",
@@ -236,7 +236,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_006.jpg",
+    "image_url": "/products/sepakat_006.jpg",
     "options": [
       {
         "id": "opt_sepakat_006_pcs",
@@ -286,7 +286,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bubuk, Teh & Kopi",
       "slug": "bubuk-teh-kopi"
     },
-    "image_url": "//products/sepakat_008.jpg",
+    "image_url": "/products/sepakat_008.jpg",
     "options": [
       {
         "id": "opt_sepakat_008_pcs",
@@ -311,7 +311,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_009.jpg",
+    "image_url": "/products/sepakat_009.jpg",
     "options": [
       {
         "id": "opt_sepakat_009_pcs",
@@ -336,7 +336,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_010.jpg",
+    "image_url": "/products/sepakat_010.jpg",
     "options": [
       {
         "id": "opt_sepakat_010_pcs",
@@ -361,7 +361,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_011.jpg",
+    "image_url": "/products/sepakat_011.jpg",
     "options": [
       {
         "id": "opt_sepakat_011_pcs",
@@ -386,7 +386,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_012.jpg",
+    "image_url": "/products/sepakat_012.jpg",
     "options": [
       {
         "id": "opt_sepakat_012_pcs",
@@ -411,7 +411,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_013.jpg",
+    "image_url": "/products/sepakat_013.jpg",
     "options": [
       {
         "id": "opt_sepakat_013_pcs",
@@ -436,7 +436,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_014.jpg",
+    "image_url": "/products/sepakat_014.jpg",
     "options": [
       {
         "id": "opt_sepakat_014_pcs",
@@ -461,7 +461,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_015.jpg",
+    "image_url": "/products/sepakat_015.jpg",
     "options": [
       {
         "id": "opt_sepakat_015_pcs",
@@ -486,7 +486,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_016.jpg",
+    "image_url": "/products/sepakat_016.jpg",
     "options": [
       {
         "id": "opt_sepakat_016_pcs",
@@ -511,7 +511,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_017.jpg",
+    "image_url": "/products/sepakat_017.jpg",
     "options": [
       {
         "id": "opt_sepakat_017_pcs",
@@ -536,7 +536,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_018.jpg",
+    "image_url": "/products/sepakat_018.jpg",
     "options": [
       {
         "id": "opt_sepakat_018_pcs",
@@ -561,7 +561,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_019.jpg",
+    "image_url": "/products/sepakat_019.jpg",
     "options": [
       {
         "id": "opt_sepakat_019_pcs",
@@ -586,7 +586,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_020.jpg",
+    "image_url": "/products/sepakat_020.jpg",
     "options": [
       {
         "id": "opt_sepakat_020_pcs",
@@ -611,7 +611,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_021.jpg",
+    "image_url": "/products/sepakat_021.jpg",
     "options": [
       {
         "id": "opt_sepakat_021_pcs",
@@ -636,7 +636,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_022.jpg",
+    "image_url": "/products/sepakat_022.jpg",
     "options": [
       {
         "id": "opt_sepakat_022_pcs",
@@ -661,7 +661,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_023.jpg",
+    "image_url": "/products/sepakat_023.jpg",
     "options": [
       {
         "id": "opt_sepakat_023_pcs",
@@ -686,7 +686,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_024.jpg",
+    "image_url": "/products/sepakat_024.jpg",
     "options": [
       {
         "id": "opt_sepakat_024_pcs",
@@ -711,7 +711,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_025.jpg",
+    "image_url": "/products/sepakat_025.jpg",
     "options": [
       {
         "id": "opt_sepakat_025_pcs",
@@ -736,7 +736,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_026.jpg",
+    "image_url": "/products/sepakat_026.jpg",
     "options": [
       {
         "id": "opt_sepakat_026_pcs",
@@ -761,7 +761,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_027.jpg",
+    "image_url": "/products/sepakat_027.jpg",
     "options": [
       {
         "id": "opt_sepakat_027_pcs",
@@ -786,7 +786,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bubuk, Teh & Kopi",
       "slug": "bubuk-teh-kopi"
     },
-    "image_url": "//products/sepakat_028.jpg",
+    "image_url": "/products/sepakat_028.jpg",
     "options": [
       {
         "id": "opt_sepakat_028_pcs",
@@ -811,7 +811,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_029.jpg",
+    "image_url": "/products/sepakat_029.jpg",
     "options": [
       {
         "id": "opt_sepakat_029_pcs",
@@ -836,7 +836,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_030.jpg",
+    "image_url": "/products/sepakat_030.jpg",
     "options": [
       {
         "id": "opt_sepakat_030_pcs",
@@ -861,7 +861,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_031.jpg",
+    "image_url": "/products/sepakat_031.jpg",
     "options": [
       {
         "id": "opt_sepakat_031_pcs",
@@ -886,7 +886,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_032.jpg",
+    "image_url": "/products/sepakat_032.jpg",
     "options": [
       {
         "id": "opt_sepakat_032_pcs",
@@ -911,7 +911,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_033.jpg",
+    "image_url": "/products/sepakat_033.jpg",
     "options": [
       {
         "id": "opt_sepakat_033_pcs",
@@ -936,7 +936,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_034.jpg",
+    "image_url": "/products/sepakat_034.jpg",
     "options": [
       {
         "id": "opt_sepakat_034_pcs",
@@ -961,7 +961,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_035.jpg",
+    "image_url": "/products/sepakat_035.jpg",
     "options": [
       {
         "id": "opt_sepakat_035_pcs",
@@ -986,7 +986,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_036.jpg",
+    "image_url": "/products/sepakat_036.jpg",
     "options": [
       {
         "id": "opt_sepakat_036_pcs",
@@ -1011,7 +1011,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_037.jpg",
+    "image_url": "/products/sepakat_037.jpg",
     "options": [
       {
         "id": "opt_sepakat_037_pcs",
@@ -1036,7 +1036,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_038.jpg",
+    "image_url": "/products/sepakat_038.jpg",
     "options": [
       {
         "id": "opt_sepakat_038_kp",
@@ -1070,7 +1070,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_039.jpg",
+    "image_url": "/products/sepakat_039.jpg",
     "options": [
       {
         "id": "opt_sepakat_039_kp",
@@ -1104,7 +1104,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_040.jpg",
+    "image_url": "/products/sepakat_040.jpg",
     "options": [
       {
         "id": "opt_sepakat_040_kp",
@@ -1138,7 +1138,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_041.jpg",
+    "image_url": "/products/sepakat_041.jpg",
     "options": [
       {
         "id": "opt_sepakat_041_kp",
@@ -1172,7 +1172,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_042.jpg",
+    "image_url": "/products/sepakat_042.jpg",
     "options": [
       {
         "id": "opt_sepakat_042_pcs",
@@ -1197,7 +1197,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_043.jpg",
+    "image_url": "/products/sepakat_043.jpg",
     "options": [
       {
         "id": "opt_sepakat_043_kp",
@@ -1222,7 +1222,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_044.jpg",
+    "image_url": "/products/sepakat_044.jpg",
     "options": [
       {
         "id": "opt_sepakat_044_pcs",
@@ -1247,7 +1247,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_045.jpg",
+    "image_url": "/products/sepakat_045.jpg",
     "options": [
       {
         "id": "opt_sepakat_045_pcs",
@@ -1272,7 +1272,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_046.jpg",
+    "image_url": "/products/sepakat_046.jpg",
     "options": [
       {
         "id": "opt_sepakat_046_kp",
@@ -1297,7 +1297,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_047.jpg",
+    "image_url": "/products/sepakat_047.jpg",
     "options": [
       {
         "id": "opt_sepakat_047_pcs",
@@ -1322,7 +1322,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_048.jpg",
+    "image_url": "/products/sepakat_048.jpg",
     "options": [
       {
         "id": "opt_sepakat_048_kp",
@@ -1356,7 +1356,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_049.jpg",
+    "image_url": "/products/sepakat_049.jpg",
     "options": [
       {
         "id": "opt_sepakat_049_pcs",
@@ -1381,7 +1381,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Sirup & Perisa",
       "slug": "sirup-perisa"
     },
-    "image_url": "//products/sepakat_050.jpg",
+    "image_url": "/products/sepakat_050.jpg",
     "options": [
       {
         "id": "opt_sepakat_050_pcs",
@@ -1406,7 +1406,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_051.jpg",
+    "image_url": "/products/sepakat_051.jpg",
     "options": [
       {
         "id": "opt_sepakat_051_kp",
@@ -1431,7 +1431,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_052.jpg",
+    "image_url": "/products/sepakat_052.jpg",
     "options": [
       {
         "id": "opt_sepakat_052_kp",
@@ -1456,7 +1456,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_053.jpg",
+    "image_url": "/products/sepakat_053.jpg",
     "options": [
       {
         "id": "opt_sepakat_053_kp",
@@ -1481,7 +1481,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_054.jpg",
+    "image_url": "/products/sepakat_054.jpg",
     "options": [
       {
         "id": "opt_sepakat_054_kp",
@@ -1506,7 +1506,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_055.jpg",
+    "image_url": "/products/sepakat_055.jpg",
     "options": [
       {
         "id": "opt_sepakat_055_kp",
@@ -1531,7 +1531,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_056.jpg",
+    "image_url": "/products/sepakat_056.jpg",
     "options": [
       {
         "id": "opt_sepakat_056_kp",
@@ -1556,7 +1556,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_057.jpg",
+    "image_url": "/products/sepakat_057.jpg",
     "options": [
       {
         "id": "opt_sepakat_057_kp",
@@ -1581,7 +1581,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_058.jpg",
+    "image_url": "/products/sepakat_058.jpg",
     "options": [
       {
         "id": "opt_sepakat_058_kp",
@@ -1606,7 +1606,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_059.jpg",
+    "image_url": "/products/sepakat_059.jpg",
     "options": [
       {
         "id": "opt_sepakat_059_kp",
@@ -1631,7 +1631,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_060.jpg",
+    "image_url": "/products/sepakat_060.jpg",
     "options": [
       {
         "id": "opt_sepakat_060_pcs",
@@ -1656,7 +1656,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_061.jpg",
+    "image_url": "/products/sepakat_061.jpg",
     "options": [
       {
         "id": "opt_sepakat_061_kp",
@@ -1681,7 +1681,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_062.jpg",
+    "image_url": "/products/sepakat_062.jpg",
     "options": [
       {
         "id": "opt_sepakat_062_kp",
@@ -1706,7 +1706,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_063.jpg",
+    "image_url": "/products/sepakat_063.jpg",
     "options": [
       {
         "id": "opt_sepakat_063_kp",
@@ -1731,7 +1731,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_064.jpg",
+    "image_url": "/products/sepakat_064.jpg",
     "options": [
       {
         "id": "opt_sepakat_064_kp",
@@ -1756,7 +1756,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_065.jpg",
+    "image_url": "/products/sepakat_065.jpg",
     "options": [
       {
         "id": "opt_sepakat_065_kp",
@@ -1781,7 +1781,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_066.jpg",
+    "image_url": "/products/sepakat_066.jpg",
     "options": [
       {
         "id": "opt_sepakat_066_kp",
@@ -1806,7 +1806,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_067.jpg",
+    "image_url": "/products/sepakat_067.jpg",
     "options": [
       {
         "id": "opt_sepakat_067_kp",
@@ -1831,7 +1831,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_068.jpg",
+    "image_url": "/products/sepakat_068.jpg",
     "options": [
       {
         "id": "opt_sepakat_068_kp",
@@ -1856,7 +1856,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_069.jpg",
+    "image_url": "/products/sepakat_069.jpg",
     "options": [
       {
         "id": "opt_sepakat_069_kp",
@@ -1881,7 +1881,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_070.jpg",
+    "image_url": "/products/sepakat_070.jpg",
     "options": [
       {
         "id": "opt_sepakat_070_kp",
@@ -1906,7 +1906,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_071.jpg",
+    "image_url": "/products/sepakat_071.jpg",
     "options": [
       {
         "id": "opt_sepakat_071_pcs",
@@ -1956,7 +1956,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_073.jpg",
+    "image_url": "/products/sepakat_073.jpg",
     "options": [
       {
         "id": "opt_sepakat_073_pcs",
@@ -1981,7 +1981,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_074.jpg",
+    "image_url": "/products/sepakat_074.jpg",
     "options": [
       {
         "id": "opt_sepakat_074_pcs",
@@ -2006,7 +2006,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_075.jpg",
+    "image_url": "/products/sepakat_075.jpg",
     "options": [
       {
         "id": "opt_sepakat_075_pcs",
@@ -2031,7 +2031,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_076.jpg",
+    "image_url": "/products/sepakat_076.jpg",
     "options": [
       {
         "id": "opt_sepakat_076_pcs",
@@ -2056,7 +2056,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_077.jpg",
+    "image_url": "/products/sepakat_077.jpg",
     "options": [
       {
         "id": "opt_sepakat_077_pcs",
@@ -2081,7 +2081,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_078.jpg",
+    "image_url": "/products/sepakat_078.jpg",
     "options": [
       {
         "id": "opt_sepakat_078_pcs",
@@ -2106,7 +2106,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_079.jpg",
+    "image_url": "/products/sepakat_079.jpg",
     "options": [
       {
         "id": "opt_sepakat_079_kp",
@@ -2140,7 +2140,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_080.jpg",
+    "image_url": "/products/sepakat_080.jpg",
     "options": [
       {
         "id": "opt_sepakat_080_kp",
@@ -2174,7 +2174,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_081.jpg",
+    "image_url": "/products/sepakat_081.jpg",
     "options": [
       {
         "id": "opt_sepakat_081_pcs",
@@ -2199,7 +2199,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bahan Makanan & Frozen",
       "slug": "makanan-frozen"
     },
-    "image_url": "//products/sepakat_082.jpg",
+    "image_url": "/products/sepakat_082.jpg",
     "options": [
       {
         "id": "opt_sepakat_082_pcs",
@@ -2224,7 +2224,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_083.jpg",
+    "image_url": "/products/sepakat_083.jpg",
     "options": [
       {
         "id": "opt_sepakat_083_pcs",
@@ -2249,7 +2249,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bubuk, Teh & Kopi",
       "slug": "bubuk-teh-kopi"
     },
-    "image_url": "//products/sepakat_084.jpg",
+    "image_url": "/products/sepakat_084.jpg",
     "options": [
       {
         "id": "opt_sepakat_084_pcs",
@@ -2274,7 +2274,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bubuk, Teh & Kopi",
       "slug": "bubuk-teh-kopi"
     },
-    "image_url": "//products/sepakat_085.jpg",
+    "image_url": "/products/sepakat_085.jpg",
     "options": [
       {
         "id": "opt_sepakat_085_pcs",
@@ -2299,7 +2299,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Bubuk, Teh & Kopi",
       "slug": "bubuk-teh-kopi"
     },
-    "image_url": "//products/sepakat_086.jpg",
+    "image_url": "/products/sepakat_086.jpg",
     "options": [
       {
         "id": "opt_sepakat_086_pcs",
@@ -2324,7 +2324,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Minuman & Air Mineral",
       "slug": "minuman-jus"
     },
-    "image_url": "//products/sepakat_087.jpg",
+    "image_url": "/products/sepakat_087.jpg",
     "options": [
       {
         "id": "opt_sepakat_087_pcs",
@@ -2349,7 +2349,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_088.jpg",
+    "image_url": "/products/sepakat_088.jpg",
     "options": [
       {
         "id": "opt_sepakat_088_pcs",
@@ -2374,7 +2374,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_089.jpg",
+    "image_url": "/products/sepakat_089.jpg",
     "options": [
       {
         "id": "opt_sepakat_089_pcs",
@@ -2399,7 +2399,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_090.jpg",
+    "image_url": "/products/sepakat_090.jpg",
     "options": [
       {
         "id": "opt_sepakat_090_kp",
@@ -2424,7 +2424,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_091.jpg",
+    "image_url": "/products/sepakat_091.jpg",
     "options": [
       {
         "id": "opt_sepakat_091_kp",
@@ -2449,7 +2449,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Dairy & Susu",
       "slug": "dairy-susu"
     },
-    "image_url": "//products/sepakat_092.jpg",
+    "image_url": "/products/sepakat_092.jpg",
     "options": [
       {
         "id": "opt_sepakat_092_pcs",
@@ -2474,7 +2474,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Topping, Gula & Selai",
       "slug": "topping-pemanis"
     },
-    "image_url": "//products/sepakat_093.jpg",
+    "image_url": "/products/sepakat_093.jpg",
     "options": [
       {
         "id": "opt_sepakat_093_pcs",
@@ -2499,7 +2499,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
       "name": "Kemasan & Perlengkapan",
       "slug": "kemasan-takeaway"
     },
-    "image_url": "//products/sepakat_094.jpg",
+    "image_url": "/products/sepakat_094.jpg",
     "options": [
       {
         "id": "opt_sepakat_094_pcs",
