@@ -29,7 +29,7 @@ export const InfoPage: React.FC<Props> = ({ onNavigate }) => {
       <section className="bg-white border border-zinc-200 rounded-2xl p-6 space-y-3 shadow-2xs">
         <h2 className="text-base font-bold text-zinc-900">Tentang Toko Timbang Sepakat</h2>
         <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed">
-          Toko Timbang Sepakat (sebelumnya dikenal sebagai Toko Renjana) adalah penyedia bahan baku terpercaya untuk coffee shop, kafe, dan pelaku bisnis makanan & minuman (F&B). Kami juga melayani pembelian eceran untuk kebutuhan individu.
+          Toko Timbang Sepakat adalah penyedia bahan baku terpercaya untuk coffee shop, kafe, dan pelaku bisnis makanan & minuman (F&B). Kami juga melayani pembelian eceran untuk kebutuhan individu.
         </p>
         <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed">
           Seluruh produk memiliki harga satuan yang jelas (tersedia pilihan satuan karton/pack atau pcs). Pembelian dilakukan secara langsung tanpa registrasi akun yang rumit.

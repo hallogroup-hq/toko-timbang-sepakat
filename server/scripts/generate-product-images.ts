@@ -229,7 +229,7 @@ for (const p of products) {
   `, assetId, storageKey, sha256, storageKey);
 
   // Do not automatically publish primary image for unverified variants pending admin check
-  const unverifiedKeys = ['RENJANA-004', 'RENJANA-072', 'RENJANA-007'];
+  const unverifiedKeys = ['SEPAKAT-004', 'SEPAKAT-072', 'SEPAKAT-007'];
   const isUnverified = unverifiedKeys.includes(p.source_key);
 
   if (!isUnverified) {
@@ -284,7 +284,7 @@ const rows = ['source_key,name,candidate_urls,chosen_asset_path,variant_match,ri
 
 for (const p of products) {
   const upd = candidateUpdates.find(u => u.source_key === p.source_key);
-  const unverifiedKeys = ['RENJANA-004', 'RENJANA-072', 'RENJANA-007'];
+  const unverifiedKeys = ['SEPAKAT-004', 'SEPAKAT-072', 'SEPAKAT-007'];
   const isUnverified = unverifiedKeys.includes(p.source_key);
 
   if (isUnverified) {
