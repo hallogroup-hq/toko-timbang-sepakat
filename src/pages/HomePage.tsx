@@ -5,6 +5,7 @@ import { formatRupiah } from '../lib/format.ts';
 import { ProductPlaceholder } from '../components/ProductPlaceholder.tsx';
 import { addToCart } from '../lib/cart.ts';
 import { useToast } from '../components/Toast.tsx';
+import { FALLBACK_CATEGORIES, FALLBACK_PRODUCTS } from '../data/catalogData.ts';
 
 interface Props {
   onNavigate: (path: string, query?: Record<string, string>) => void;
@@ -12,19 +13,23 @@ interface Props {
 
 export const HomePage: React.FC<Props> = ({ onNavigate }) => {
   const { showToast } = useToast();
-  const [categories, setCategories] = useState<Category[]>([]);
-  const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
+  const [categories, setCategories] = useState<Category[]>(FALLBACK_CATEGORIES);
+  const [featuredProducts, setFeaturedProducts] = useState<Product[]>(FALLBACK_PRODUCTS.slice(0, 10));
   const [searchQuery, setSearchQuery] = useState('');
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/categories').then((r) => r.json()),
-      fetch('/api/products').then((r) => r.json())
+      fetch('/api/categories').then((r) => r.json()).catch(() => null),
+      fetch('/api/products').then((r) => r.json()).catch(() => null)
     ])
       .then(([catRes, prodRes]) => {
-        if (catRes.data) setCategories(catRes.data);
-        if (prodRes.data) setFeaturedProducts(prodRes.data.slice(0, 10));
+        if (catRes && catRes.data && Array.isArray(catRes.data) && catRes.data.length > 0) {
+          setCategories(catRes.data);
+        }
+        if (prodRes && prodRes.data && Array.isArray(prodRes.data) && prodRes.data.length > 0) {
+          setFeaturedProducts(prodRes.data.slice(0, 10));
+        }
       })
       .catch((err) => console.error('Failed to load home data', err))
       .finally(() => setLoading(false));

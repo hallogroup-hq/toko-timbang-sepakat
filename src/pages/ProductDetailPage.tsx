@@ -5,6 +5,7 @@ import { formatRupiah } from '../lib/format.ts';
 import { ProductPlaceholder } from '../components/ProductPlaceholder.tsx';
 import { addToCart } from '../lib/cart.ts';
 import { useToast } from '../components/Toast.tsx';
+import { FALLBACK_PRODUCTS } from '../data/catalogData.ts';
 
 interface Props {
   slug: string;
@@ -13,28 +14,40 @@ interface Props {
 
 export const ProductDetailPage: React.FC<Props> = ({ slug, onNavigate }) => {
   const { showToast } = useToast();
-  const [product, setProduct] = useState<Product | null>(null);
-  const [selectedOption, setSelectedOption] = useState<SellableOption | null>(null);
+  const [product, setProduct] = useState<Product | null>(() => FALLBACK_PRODUCTS.find((p) => p.slug === slug) || null);
+  const [selectedOption, setSelectedOption] = useState<SellableOption | null>(() => {
+    const p = FALLBACK_PRODUCTS.find((item) => item.slug === slug);
+    return p && p.options.length > 0 ? p.options[0] : null;
+  });
   const [qty, setQty] = useState(1);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
   useEffect(() => {
-    setLoading(true);
     fetch(`/api/products/${slug}`)
       .then((r) => {
         if (!r.ok) throw new Error('Produk tidak ditemukan');
         return r.json();
       })
       .then((res) => {
-        if (res.data) {
+        if (res && res.data) {
           setProduct(res.data);
           if (res.data.options && res.data.options.length > 0) {
             setSelectedOption(res.data.options[0]);
           }
         }
       })
-      .catch((err) => setError(err.message))
+      .catch(() => {
+        const fallback = FALLBACK_PRODUCTS.find((p) => p.slug === slug);
+        if (fallback) {
+          setProduct(fallback);
+          if (fallback.options && fallback.options.length > 0) {
+            setSelectedOption(fallback.options[0]);
+          }
+        } else {
+          setError('Produk tidak ditemukan');
+        }
+      })
       .finally(() => setLoading(false));
   }, [slug]);
 

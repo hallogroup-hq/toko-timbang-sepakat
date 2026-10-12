@@ -5,6 +5,7 @@ import { formatRupiah } from '../lib/format.ts';
 import { ProductPlaceholder } from '../components/ProductPlaceholder.tsx';
 import { addToCart } from '../lib/cart.ts';
 import { useToast } from '../components/Toast.tsx';
+import { FALLBACK_PRODUCTS, FALLBACK_CATEGORIES } from '../data/catalogData.ts';
 
 interface Props {
   initialQuery?: string;
@@ -14,12 +15,12 @@ interface Props {
 
 export const CatalogPage: React.FC<Props> = ({ initialQuery = '', initialCategory = '', onNavigate }) => {
   const { showToast } = useToast();
-  const [products, setProducts] = useState<Product[]>([]);
-  const [categories, setCategories] = useState<Category[]>([]);
+  const [products, setProducts] = useState<Product[]>(FALLBACK_PRODUCTS);
+  const [categories, setCategories] = useState<Category[]>(FALLBACK_CATEGORIES);
   const [search, setSearch] = useState(initialQuery);
   const [selectedCategory, setSelectedCategory] = useState(initialCategory);
   const [sort, setSort] = useState('relevance');
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // Unit selector bottom sheet / modal state
   const [activeProductForUnit, setActiveProductForUnit] = useState<Product | null>(null);
@@ -27,21 +28,48 @@ export const CatalogPage: React.FC<Props> = ({ initialQuery = '', initialCategor
   const [selectedQty, setSelectedQty] = useState(1);
 
   useEffect(() => {
-    setLoading(true);
     let url = '/api/products?';
     if (search.trim()) url += `q=${encodeURIComponent(search.trim())}&`;
     if (selectedCategory) url += `category=${encodeURIComponent(selectedCategory)}&`;
     if (sort === 'name_asc') url += `sort=name_asc&`;
 
     Promise.all([
-      fetch(url).then((r) => r.json()),
-      fetch('/api/categories').then((r) => r.json())
+      fetch(url).then((r) => r.json()).catch(() => null),
+      fetch('/api/categories').then((r) => r.json()).catch(() => null)
     ])
       .then(([prodRes, catRes]) => {
-        if (prodRes.data) setProducts(prodRes.data);
-        if (catRes.data) setCategories(catRes.data);
+        if (prodRes && prodRes.data && Array.isArray(prodRes.data)) {
+          setProducts(prodRes.data);
+        } else {
+          let filtered = [...FALLBACK_PRODUCTS];
+          if (search.trim()) {
+            const q = search.trim().toLowerCase();
+            filtered = filtered.filter(
+              (p) =>
+                p.display_name.toLowerCase().includes(q) ||
+                p.source_key.toLowerCase().includes(q)
+            );
+          }
+          if (selectedCategory) {
+            filtered = filtered.filter((p) => p.category?.slug === selectedCategory);
+          }
+          if (sort === 'name_asc') {
+            filtered.sort((a, b) => a.display_name.localeCompare(b.display_name));
+          }
+          setProducts(filtered);
+        }
+
+        if (catRes && catRes.data && Array.isArray(catRes.data) && catRes.data.length > 0) {
+          setCategories(catRes.data);
+        } else {
+          setCategories(FALLBACK_CATEGORIES);
+        }
       })
-      .catch((err) => console.error('Failed to load catalog', err))
+      .catch((err) => {
+        console.error('Failed to load catalog', err);
+        setProducts(FALLBACK_PRODUCTS);
+        setCategories(FALLBACK_CATEGORIES);
+      })
       .finally(() => setLoading(false));
   }, [search, selectedCategory, sort]);
 
