@@ -23,22 +23,14 @@ export const Navbar: React.FC<Props> = ({ currentPath, onNavigate }) => {
         {/* Brand Logo & Name */}
         <button
           onClick={() => onNavigate('/')}
-          className="flex items-center gap-2.5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 rounded-md p-1 -ml-1 transition-opacity hover:opacity-90"
+          className="flex items-center text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 rounded-md p-1 -ml-1 transition-opacity hover:opacity-90"
           aria-label="Kembali ke beranda Toko Timbang Sepakat"
         >
           <img
             src="/branding/logo-color.png"
-            alt="Logo Toko Timbang Sepakat"
-            className="h-9 w-auto object-contain"
+            alt="Toko Timbang Sepakat"
+            className="h-10 sm:h-12 w-auto object-contain"
           />
-          <div className="hidden sm:block">
-            <span className="font-bold text-base tracking-tight text-zinc-900 block leading-tight">
-              Toko Timbang Sepakat
-            </span>
-            <span className="text-[11px] text-zinc-500 font-medium block leading-tight">
-              Bahan Baku Kafe & F&B
-            </span>
-          </div>
         </button>
 
         {/* Center Navigation for Desktop */}
